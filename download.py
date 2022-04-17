@@ -37,7 +37,6 @@ proxy_pool = cycle([
     }
 ])
 proxy = next(proxy_pool)
-print(f"New proxy: {proxy}")
 
 current_hash = args.first_hash[0]
 output_path = args.output[0]
